@@ -353,6 +353,7 @@ declare module jsPlumb {
         scope: string;
         reattachConnections: boolean;
         type: string; // "Dot", etc.
+        radius?: number;
     }
 
     class Endpoint {
